@@ -3,7 +3,7 @@ const sinon = require('sinon');
 describe("index.js", () => {
   let input;
 
-  beforeEach(function() {
+  beforeEach(function () {
     input = document.getElementById('button');
     sinon.spy(input, 'addEventListener');
   })
